@@ -1,4 +1,22 @@
 {
+  "private": true,
+  "name": "ark-desktop-wallet",
+  "version": "2.7.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexbarnsley/jest-memory-usage.git"
+  },
+  "author": "Alex Barnsley <alex@ark.io>",
+  "description": "Ark Ecosystem Desktop Wallet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexbarnsley/jest-memory-usage/issues"
+  },
+  "scripts": {
+    "test": "jest __tests__/unit/",
+    "test:debug": "jest __tests__/unit/ --runInBand --logHeapUsage",
+    "test:watch": "jest __tests__/unit/ --watch"
+  },
   "devDependencies": {
     "jest": "^25.1.0"
   }
